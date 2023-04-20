@@ -1,4 +1,7 @@
-import { StyledButton, StyledList, StyledListItem } from "./FeedbackOptions.styled";
+import PropTypes from 'prop-types';
+import { StyledButton} from "./FeedbackOptions.styled";
+import { StyledList } from 'components/StyledCommon/List.styled';
+import { StyledListItem } from 'components/StyledCommon/ListItem.styled';
 
 export const FeedbackOptions = (props) =>{
     const {variants, onClick} = props
@@ -21,3 +24,8 @@ export const FeedbackOptions = (props) =>{
     </StyledList>)
 
     }
+ FeedbackOptions.propTypes = {
+      variants: PropTypes.arrayOf(PropTypes.string),
+      onClick: PropTypes.func
+    }
+    

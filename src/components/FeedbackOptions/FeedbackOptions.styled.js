@@ -10,17 +10,5 @@ export const StyledButton = styled.button`
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
-`;
-
-export const StyledList = styled.ul`
-  list-style: none;
-  margin: 0;
-  padding: 0;
-`;
-
-export const StyledListItem = styled.li`
-  margin-bottom: 12px;
-  &: last-child {
-    margin-bottom: 0;
-  }
+  cursor: pointer;
 `;
