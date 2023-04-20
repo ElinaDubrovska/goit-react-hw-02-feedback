@@ -25,7 +25,7 @@ export const Statistics = (props) => {
             </StyledListItem>
             {total > 0 &&
              <StyledListItem>
-                <StyledText> Positive Feedback :{positivePercentage} %
+                <StyledText> Positive Feedback : {positivePercentage} %
                 </StyledText>
                 </StyledListItem>}
         </StyledList>
